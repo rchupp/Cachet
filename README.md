@@ -1,18 +1,14 @@
-<p align="center"><img src="/public/img/cachet-logo@2x.png"></p>
+<p align="center"><img src="https://demo.cachethq.io/img/cachet-logo.svg" width="50%"></p>
 
 <p align="center">
 <a href="https://styleci.io/repos/26730195/"><img src="https://styleci.io/repos/26730195/shield" alt="StyleCI"></a>
 <a href="https://travis-ci.org/CachetHQ/Cachet"><img src="https://img.shields.io/travis/CachetHQ/Cachet/2.4.svg?style=flat-square" alt="Build Status"></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/license-BSD3-brightgreen.svg?style=flat-square" alt="License"></a>
-<a href="http://translate.cachethq.io/project/cachet"><img src="https://d322cqt584bo4o.cloudfront.net/cachet/localized.svg" alt="Localisation"></a>
+<a href="https://translate.cachethq.io/project/cachet"><img src="https://d322cqt584bo4o.cloudfront.net/cachet/localized.svg" alt="Localisation"></a>
 <a href="https://github.com/CachetHQ/Cachet/releases"><img src="https://img.shields.io/github/release/cachethq/cachet.svg?style=flat-square" alt="Latest Stable Version"></a>
 </p>
 
 Cachet is a beautiful and powerful open source status page system.
-
-## Community
-
-You can now [join our Slack community!](http://cachethq-slack.herokuapp.com)
 
 ## Overview
 
@@ -26,9 +22,13 @@ You can now [join our Slack community!](http://cachethq-slack.herokuapp.com)
 - Subscriber notifications via email
 - Two factor authentication
 
+## Community
+
+You can now [join our Slack community!](http://cachethq-slack.herokuapp.com)
+
 ## Requirements
 
-- PHP 5.5.9+ or newer
+- PHP 7.1.3 - 7.3
 - HTTP server with PHP support (eg: Apache, Nginx, Caddy)
 - [Composer](https://getcomposer.org)
 - A supported database: MySQL, PostgreSQL or SQLite
@@ -41,12 +41,13 @@ Here are some useful quick links:
 
 - [Installing Cachet](https://docs.cachethq.io/docs/installing-cachet)
 - [Getting started with Docker](https://docs.cachethq.io/docs/get-started-with-docker)
+- [Installing Cachet on Windows](https://docs.cachethq.io/docs/installing-cachet-on-windows)
 
-### Demo Account
+### Demo
 
-To test out the demo, you may login to the [Dashboard](https://demo.cachethq.io/dashboard) with the following:
+To test out the demo, you may login to the [Dashboard](https://dev.cachethq.io/dashboard) with the following:
 
-- **Username:** `test` or `test@test.com`
+- **Username:** `test` or `test@example.com`
 - **Password:** `test123`
 
 > The demo resets every 30 minutes.
@@ -55,10 +56,18 @@ To test out the demo, you may login to the [Dashboard](https://demo.cachethq.io/
 
 If you'd like to contribute translations, please check out our [CrowdIn project](https://crowdin.com/project/cachet).
 
-## Professional Installation Service
-
-We offer a professional installation service. To find out more, email us at [support@alt-three.com](mailto:support@alt-three.com?Cachet Installation)
-
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Cachet, please send an e-mail to us at support@alt-three.com. We handle all security vulnerabilities on a case-by-case basis.
+If you discover a security vulnerability within Cachet, please send an e-mail to [support@cachethq.io](mailto:support@cachethq.io?Cachet%20Security%20Vulnerability). All security vulnerabilities on a case-by-case basis.
+
+## Limited Support Contact
+
+We may be able to resolve **support queries** via email. Please send an e-mail to [support@cachethq.io](mailto:support@cachethq.io?Cachet%20Support). Please first check the GitHub [issue tracker](https://github.com/CachetHQ/Cachet/issues) before emailing.
+
+## Professional Installation Service
+
+A professional **installation service** is offered by Alt Three Services Limited. To find out more, contact [support@alt-three.com](mailto:support@alt-three.com?Cachet%20Installation). **Do not contact this email address for general support.**
+
+## Sponsorship
+
+You can sponsor Cachet at our [Patreon page](https://patreon.com/jbrooksuk).
